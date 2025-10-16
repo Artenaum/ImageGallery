@@ -1,0 +1,28 @@
+.imagecard {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	width: 250px;
+	height: 250px;
+	border-radius: 10px;
+}
+
+.imagecard p {
+	color: black;
+	font-size: 14px;
+}
+
+.imageholder {
+	width: 150px;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.imageholder img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
